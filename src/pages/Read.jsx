@@ -109,7 +109,7 @@ const Read = () => {
                 <h1 className="text-2xl font-bold mb-4 text-center">독서록 읽기</h1>
                 <form onSubmit={handleSubmit} className="px-6 py-4">
                     <div className="mb-4">
-                        <label className="block text-gray-700 font-bold mb-2">제목</label>
+                        <label className="block text-gray-700 font-bold mb-2 ">제목</label>
                         <input type="text" placeholder="제목" value={title} onChange={(e) => setTitle(e.target.value)} className="border p-2 mb-2 w-full" required/>
                     </div>
                     <div className="mb-4">
@@ -143,3 +143,6 @@ const Read = () => {
 };
 
 export default Read;
+
+
+
