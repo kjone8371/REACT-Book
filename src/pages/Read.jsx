@@ -32,7 +32,7 @@ const Read = () => {
 
     return (
         <div className="container mx-auto p-4">
-            <h1 className="text-2xl font-bold mb-4">독서록 보기 및 수정</h1>
+            <h1 className="text-2xl font-bold mb-4">독서록 읽기</h1>
             <form onSubmit={handleSubmit}>
                 <div className="mb-4">
                     <label className="block text-gray-700 font-bold mb-2">제목</label>
