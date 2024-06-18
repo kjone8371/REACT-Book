@@ -121,8 +121,8 @@ const New = () => {
                         <textarea placeholder="줄거리 및 감상" value={summary} onChange={(e) => setSummary(e.target.value)} className="border p-2 mb-2 flex-1 h-32" required/>
                     </div>
                     <div className="flex justify-between">
-                        <button type="submit" className="bg-blue-500 text-white py-2 px-4 rounded">완료</button>
                         <button type="button" onClick={handleCancel} className="bg-gray-300 text-gray-800 py-2 px-4 rounded">취소</button>
+                        <button type="submit" className="bg-blue-500 text-white py-2 px-4 rounded">완료</button>
                     </div>
                 </form>
             </div>
